@@ -6,7 +6,6 @@ import Graph from './components/Graph';
 function App() {
 
   const [data, setData] = useState(null);
-  // const [showChart, setShowChart] = useState
 
   useEffect(() => {
     axios.get("https://api.weather.gov/gridpoints/TOP/32,81/forecast")
